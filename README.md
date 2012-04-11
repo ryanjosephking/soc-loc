@@ -115,7 +115,7 @@ but we didn't want to lose accuracy by rounding up or down, even if it would
 help "Snap" the cursor to prettier-seeming coordinates.
 
 Basically, you can treat the components as a black box, and not worry about
-them - when you go to point out things in the 3D world, it will get you cas
+them - when you go to point out things in the 3D world, it will get you as
 close as we know how.
 
 If you have a strong case for or against rounding, please let us know.
