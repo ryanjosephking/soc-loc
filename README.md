@@ -26,6 +26,19 @@ You could even do an entire model this way, through placing points, placing
 the cursor at a different point, then `f`illing an edge/face,  if you had two
 people whose patience bordered on the infinite. =)
 
+Example
+-------
+
+0. Copy this into clipboard: `1.1, 0.43, 0.315`
+0. Start Blender with a Default Scene.
+0. Delete the Default Cube (but don't enjoy it -- ever).
+0. `Shift+a > Mesh > Monkey`
+0. `Tab` into Edit Mode.
+0. Click `'n' Panel > 3D Cursor > Paste`
+0. Maybe hit `Ctrl+Numpad '.'`
+0. How many verts does that face have?
+0. Ha! They should have used [MeshLint](https://github.com/ryanjosephking/meshlint)!
+
 Independence
 ------------
 
@@ -37,10 +50,32 @@ edit the string as you wish (see: Precision, below, for an example of
 circumstances where you may want to manually affect the values for
 aesthetics).
 
+Getting
+-------
+
+Best way is to:
+
+    git clone git@github.com:ryanjosephking/soc-loc.git
+
+That way, you can `git pull` later on and it will automatically refresh to the
+latest (theoretically-)good version.
+
+But I realize that not everyone has `git` or an operating system capable of
+symlinking.
+
+So, for those that can't: You can simply download the
+[soc-loc.py](https://raw.github.com/ryanjosephking/soc-loc/master/soc-loc.py)
+script directly. (And re-visit that URL for the newest version, later on.)
+
 Installing
 ----------
 
-To install...
+The super-awesome way is to directly symlink `soc-loc.py` into your [Blender
+Addons
+Dir](http://wiki.blender.org/index.php/Doc:2.6/Manual/Introduction/Installing_Blender/DirectoryLayout).
+The advantage is that the previous section's `git pull` will download the
+newest version automatically. But not everyone can be expected to be
+superawesome all the time, so continue on:
 
 ![Installing Addon](soc-loc/raw/master/img/install-addon.png "`Install Addon...` screen.")
 
