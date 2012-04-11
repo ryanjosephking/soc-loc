@@ -2,11 +2,11 @@ Blender - Social Location
 =========================
 
 This is a very simple script, intended for use on text media (such as IRC or
-forums) when discussing a .blend`.
+forums) when discussing a `.blend`.
 
 The idea is that you and a buddy can be looking at the same `.blend` file, and
 you can go to the `'n' Properties Panel > 3D Cursor` and hit a single button
-for `Copy`, then paste the "x, y, z" string to your friend, who can then copy
+for `Copy`, then paste the "`x, y, z`" string to your friend, who can then copy
 it and click the corresponding `Paste` button inside his Blender.
 
 Through this relatively painless set of steps, you precisely pointed out a
