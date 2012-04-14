@@ -45,7 +45,7 @@ Independence
 There is nothing special about the values going into / out of the clipboard.
 You could manually make them (so even if only one user is running the `Social
 Location` Addon, all it means is the other has to manually paste the
-components rather than doing them in one shot. Also, this means that you can
+components rather than doing them in one shot). Also, this means that you can
 edit the string as you wish (see: Precision, below, for an example of
 circumstances where you may want to manually affect the values for
 aesthetics).
