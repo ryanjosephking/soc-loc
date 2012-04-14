@@ -81,7 +81,7 @@ superawesome all the time, so continue on:
 
 Hit `Ctrl+Alt+u` to load up the User Preferences (I always use the keystroke
 for this because of the occasional time where you miss, using the `File` menu,
-and click `Save User Settings`. Click the `Install Addon...` button at the
+and click `Save User Settings`). Click the `Install Addon...` button at the
 bottom, then navigate to your `soc-loc.py` script.
 
 ![The Enable Checkbox](soc-loc/raw/master/img/enable-checkbox.png "The Enable checkbox.")
